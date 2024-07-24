@@ -79,8 +79,6 @@ export default function Doubt() {
                 if (!phoneValid || phoneError) {
                     if (!phoneError) {
                         rPhone.current.focus();
-                    } else {
-                        rPhone.current.focus();
                     }
                     return;
                 }
@@ -102,7 +100,7 @@ export default function Doubt() {
 
     const submitForm = () => {
         let data = { name, phone, doubt };
-        let url = "http://localhost:3000/save";
+        let url = "https://doubt-app.onrender.com/save";
         axios.post(url, data)
             .then(res => {
                 console.log(res.data);
