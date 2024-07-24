@@ -77,13 +77,8 @@ export default function Doubt() {
                 setErrors(prevErrors => ({ ...prevErrors, phone: phoneError }));
 
                 if (!phoneValid || phoneError) {
-                    if (phoneError) {
-                        Swal.fire({
-                            title: 'Error!',
-                            text: phoneError,
-                            icon: 'error',
-                            confirmButtonText: 'Okay'
-                        });
+                    if (!phoneError) {
+                        rPhone.current.focus();
                     } else {
                         rPhone.current.focus();
                     }
