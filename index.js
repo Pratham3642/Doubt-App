@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.post("/save",(req,res)=>{
-    const url ="mongodb://0.0.0.0:27017";
+    const url ="mongodb+srv://prathameshmavalkar34:oqbAWpoU9owcmbdv@cluster0.on0foyo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
     const client = new MongoClient(url);
     const db = client.db("doubt");
     const coll = db.collection("doubt");
