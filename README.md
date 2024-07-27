@@ -1,4 +1,48 @@
-# Getting Started with Create React App
+# Dynamic Form Validation App
+
+### Overview
+The Dynamic Form Validation App is a web application designed to provide advanced form validation techniques using React and JavaScript. This application ensures accurate user inputs through real-time validation, error highlighting, and a responsive design for a smooth user experience.
+
+# Features
+
+  - Real-time Validation: Provides immediate feedback on user inputs.
+
+   - Error Highlighting: Clearly displays validation errors and guides users to correct their inputs.
+
+  - Responsive Design: Adapts to various devices for a smooth user experience.
+
+  - User-Friendly Interface: Intuitive design to ensure ease of use.
+
+# Technologies Used
+
+### Frontend
+
+- React: A JavaScript library for building user interfaces.
+  
+- Bootstrap: A CSS framework for building responsive and modern web pages.
+  
+### Backend
+
+- Node.js: A JavaScript runtime built on Chrome's V8 JavaScript engine.
+
+- Express: A minimal and flexible Node.js web application framework.
+
+### Database
+- MongoDB: A document-oriented NoSQL database.
+  
+- Live Demo
+  
+- Check out the live application here: [Ask Doubt](https://doubt-24c23.web.app/)
+
+# Getting Started
+
+# Prerequisites
+
+Ensure you have the following installed on your local machine:
+
+    -Node.js
+    -npm (Node Package Manager)
+    -MongoDB# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
