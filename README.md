@@ -1,7 +1,18 @@
-# Dynamic Form Validation App
+# Doubt Form App
+
+## Deployed Link
+
+[Ask Doubt App](https://doubt-24c23.web.app/)
+
+
+## Preview 
+
+![Doubt App preview](https://github.com/user-attachments/assets/8b2d6310-f7a9-4908-9cf0-370676bf3417)
+
 
 ### Overview
 The Dynamic Form Validation App is a web application designed to provide advanced form validation techniques using React and JavaScript. This application ensures accurate user inputs through real-time validation, error highlighting, and a responsive design for a smooth user experience.
+
 
 # Features
 
@@ -32,7 +43,7 @@ The Dynamic Form Validation App is a web application designed to provide advance
   
 - Live Demo
   
-- Check out the live application here: [Ask Doubt](https://doubt-24c23.web.app/)
+- Check out the live application here: [Ask Doubt]()
 
 # Getting Started
 
